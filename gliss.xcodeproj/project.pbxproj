@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41830CF421ACDFA60059061A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41830CF321ACDFA60059061A /* AppDelegate.swift */; };
+		41830CF621ACDFA60059061A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41830CF521ACDFA60059061A /* ViewController.swift */; };
+		41830CF821ACDFA70059061A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41830CF721ACDFA70059061A /* Assets.xcassets */; };
+		41830CFB21ACDFA70059061A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41830CF921ACDFA70059061A /* Main.storyboard */; };
+		41830D0721ACDFA70059061A /* glissTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41830D0621ACDFA70059061A /* glissTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41830D0321ACDFA70059061A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41830CE821ACDFA60059061A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41830CEF21ACDFA60059061A;
+			remoteInfo = gliss;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41830CF021ACDFA60059061A /* gliss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gliss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41830CF321ACDFA60059061A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41830CF521ACDFA60059061A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41830CF721ACDFA70059061A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41830CFA21ACDFA70059061A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41830CFC21ACDFA70059061A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41830CFD21ACDFA70059061A /* gliss.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gliss.entitlements; sourceTree = "<group>"; };
+		41830D0221ACDFA70059061A /* glissTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glissTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41830D0621ACDFA70059061A /* glissTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glissTests.swift; sourceTree = "<group>"; };
+		41830D0821ACDFA70059061A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41830CED21ACDFA60059061A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41830CFF21ACDFA70059061A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41830CE721ACDFA60059061A = {
+			isa = PBXGroup;
+			children = (
+				41830CF221ACDFA60059061A /* gliss */,
+				41830D0521ACDFA70059061A /* glissTests */,
+				41830CF121ACDFA60059061A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41830CF121ACDFA60059061A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41830CF021ACDFA60059061A /* gliss.app */,
+				41830D0221ACDFA70059061A /* glissTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41830CF221ACDFA60059061A /* gliss */ = {
+			isa = PBXGroup;
+			children = (
+				41830CF321ACDFA60059061A /* AppDelegate.swift */,
+				41830CF521ACDFA60059061A /* ViewController.swift */,
+				41830CF721ACDFA70059061A /* Assets.xcassets */,
+				41830CF921ACDFA70059061A /* Main.storyboard */,
+				41830CFC21ACDFA70059061A /* Info.plist */,
+				41830CFD21ACDFA70059061A /* gliss.entitlements */,
+			);
+			path = gliss;
+			sourceTree = "<group>";
+		};
+		41830D0521ACDFA70059061A /* glissTests */ = {
+			isa = PBXGroup;
+			children = (
+				41830D0621ACDFA70059061A /* glissTests.swift */,
+				41830D0821ACDFA70059061A /* Info.plist */,
+			);
+			path = glissTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41830CEF21ACDFA60059061A /* gliss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41830D0B21ACDFA70059061A /* Build configuration list for PBXNativeTarget "gliss" */;
+			buildPhases = (
+				41830CEC21ACDFA60059061A /* Sources */,
+				41830CED21ACDFA60059061A /* Frameworks */,
+				41830CEE21ACDFA60059061A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gliss;
+			productName = gliss;
+			productReference = 41830CF021ACDFA60059061A /* gliss.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41830D0121ACDFA70059061A /* glissTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41830D0E21ACDFA70059061A /* Build configuration list for PBXNativeTarget "glissTests" */;
+			buildPhases = (
+				41830CFE21ACDFA70059061A /* Sources */,
+				41830CFF21ACDFA70059061A /* Frameworks */,
+				41830D0021ACDFA70059061A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41830D0421ACDFA70059061A /* PBXTargetDependency */,
+			);
+			name = glissTests;
+			productName = glissTests;
+			productReference = 41830D0221ACDFA70059061A /* glissTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41830CE821ACDFA60059061A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Andres Valdes";
+				TargetAttributes = {
+					41830CEF21ACDFA60059061A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					41830D0121ACDFA70059061A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 41830CEF21ACDFA60059061A;
+					};
+				};
+			};
+			buildConfigurationList = 41830CEB21ACDFA60059061A /* Build configuration list for PBXProject "gliss" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41830CE721ACDFA60059061A;
+			productRefGroup = 41830CF121ACDFA60059061A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41830CEF21ACDFA60059061A /* gliss */,
+				41830D0121ACDFA70059061A /* glissTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41830CEE21ACDFA60059061A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41830CF821ACDFA70059061A /* Assets.xcassets in Resources */,
+				41830CFB21ACDFA70059061A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41830D0021ACDFA70059061A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41830CEC21ACDFA60059061A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41830CF621ACDFA60059061A /* ViewController.swift in Sources */,
+				41830CF421ACDFA60059061A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41830CFE21ACDFA70059061A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41830D0721ACDFA70059061A /* glissTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41830D0421ACDFA70059061A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41830CEF21ACDFA60059061A /* gliss */;
+			targetProxy = 41830D0321ACDFA70059061A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41830CF921ACDFA70059061A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41830CFA21ACDFA70059061A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41830D0921ACDFA70059061A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41830D0A21ACDFA70059061A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		41830D0C21ACDFA70059061A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = gliss/gliss.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = gliss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hackFIU.gliss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		41830D0D21ACDFA70059061A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = gliss/gliss.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = gliss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hackFIU.gliss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		41830D0F21ACDFA70059061A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = glissTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hackFIU.glissTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gliss.app/Contents/MacOS/gliss";
+			};
+			name = Debug;
+		};
+		41830D1021ACDFA70059061A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = glissTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hackFIU.glissTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gliss.app/Contents/MacOS/gliss";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41830CEB21ACDFA60059061A /* Build configuration list for PBXProject "gliss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41830D0921ACDFA70059061A /* Debug */,
+				41830D0A21ACDFA70059061A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41830D0B21ACDFA70059061A /* Build configuration list for PBXNativeTarget "gliss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41830D0C21ACDFA70059061A /* Debug */,
+				41830D0D21ACDFA70059061A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41830D0E21ACDFA70059061A /* Build configuration list for PBXNativeTarget "glissTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41830D0F21ACDFA70059061A /* Debug */,
+				41830D1021ACDFA70059061A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41830CE821ACDFA60059061A /* Project object */;
+}
